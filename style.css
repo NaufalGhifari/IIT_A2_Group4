@@ -1,7 +1,11 @@
 .bigTitle{
   color: red;
-  color: rgba(255, 00, 00, 1);
   text-align: center;
+  color: rgba(00, 00, 00, 1);
+}
+
+.important{
+    color: rgba(255, 00, 00, 1);
 }
 
 .bobImage{
