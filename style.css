@@ -1,0 +1,16 @@
+.bigTitle{
+  color: red;
+  color: rgba(255, 00, 00, 1);
+  text-align: center;
+}
+
+.bobImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1{
+  color: yellow;
+}
