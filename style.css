@@ -97,3 +97,28 @@ th {
   background-color:rgba(253, 249, 0, 0.200);
   color: rgb(0, 0, 0);
 }
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(253, 173, 1);
+  color: white;
+}
