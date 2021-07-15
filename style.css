@@ -1,6 +1,8 @@
 .default{
   background-color:rgb(255, 255, 255);
   color: rgb(0,0,0);
+  font-family:'Arial';
+  
 }
 
 .announcement {
@@ -41,19 +43,13 @@
   border-radius: 10px;
 }
 
-.orangeBackground{
-  border-radius: 25px;
-  padding: 10px;
-  background-color:rgba(253, 143, 0, 0.397);
-  color: rgb(0, 0, 0);
-}
-
 .textContent {
   margin-left: 350px;
   margin-right: 350px;
   text-align: justify;
 }
 
+/* Table related */
 table, th, td{
   text-align: left;
   border: 1px solid rgb(0,0,0);
@@ -63,4 +59,41 @@ table, th, td{
 
 th {
   background-color: rgb(197, 197, 197);
+}
+
+
+/* Couloured Backgrounds */
+.orangeBackground{
+  border-radius: 25px;
+  padding: 10px;
+  background-color:rgba(253, 143, 0, 0.200);
+  color: rgb(0, 0, 0);
+}
+
+.blueBackground {
+  border-radius: 25px;
+  padding: 10px;
+  background-color:rgba(0, 131, 253, 0.200);
+  color: rgb(0, 0, 0);
+}
+
+.redBackground {
+  border-radius: 25px;
+  padding: 10px;
+  background-color:rgba(253, 0, 0, 0.200);
+  color: rgb(0, 0, 0);
+}
+
+.greenBackground {
+  border-radius: 25px;
+  padding: 10px;
+  background-color:rgba(0, 253, 42, 0.200);
+  color: rgb(0, 0, 0);
+}
+
+.yellowBackground {
+  border-radius: 25px;
+  padding: 10px;
+  background-color:rgba(253, 249, 0, 0.200);
+  color: rgb(0, 0, 0);
 }
