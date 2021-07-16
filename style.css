@@ -15,6 +15,12 @@
   color: rgba(00, 00, 00, 1);
 }
 
+.mainTitle {
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .subtitle{
   text-align: justify;
   margin-left: 200px;
@@ -60,7 +66,6 @@ table, th, td{
 th {
   background-color: rgb(197, 197, 197);
 }
-
 
 /* Couloured Backgrounds */
 .orangeBackground{
@@ -110,7 +115,7 @@ th {
   float: left;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 18px;
   text-decoration: none;
   font-size: 20px;
 }
